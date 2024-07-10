@@ -1,0 +1,1138 @@
+[
+    {
+        "command": "there are a lot of couches in the living room",
+        "cfr": "BEING_LOCATED(theme:\"a lot of couches\",location:\"in the living room\")"
+    },
+    {
+        "command": "place the mug on the sink nearest to the refrigerator",
+        "cfr": "PLACING(goal:\"on the sink nearest to the refrigerator\",theme:\"the mug\")"
+    },
+    {
+        "command": "take my phone and place it on the bench in the kitchen",
+        "cfr": "TAKING(theme:\"my phone\")#PLACING(goal:\"on the bench in the kitchen\",theme:\"it\")"
+    },
+    {
+        "command": "hey robot follow john everywhere he goes and keep the same pace as he has",
+        "cfr": "FOLLOWING(area:\"everywhere he goes\",cotheme:\"john\")"
+    },
+    {
+        "command": "find the wine in the dining room",
+        "cfr": "SEARCHING(phenomenon:\"the wine\",ground:\"in the dining room\")"
+    },
+    {
+        "command": "carry this mug to the bedstand",
+        "cfr": "BRINGING(theme:\"this mug\",goal:\"to the bedstand\")"
+    },
+    {
+        "command": "drive to kitchen",
+        "cfr": "MOTION(goal:\"to kitchen\")"
+    },
+    {
+        "command": "put the pillow under the bed",
+        "cfr": "PLACING(goal:\"under the bed\",theme:\"the pillow\")"
+    },
+    {
+        "command": "robot go get a book for me",
+        "cfr": "TAKING(theme:\"a book\",purpose:\"for me\")"
+    },
+    {
+        "command": "please carry the mug to the bathroom",
+        "cfr": "BRINGING(theme:\"the mug\",goal:\"to the bathroom\")"
+    },
+    {
+        "command": "michael go to the kitchen and get me some water",
+        "cfr": "MOTION(goal:\"to the kitchen\")#BRINGING(beneficiary:\"me\",theme:\"some water\")"
+    },
+    {
+        "command": "robot follow me slowly",
+        "cfr": "FOLLOWING(cotheme:\"me\",manner:\"slowly\")"
+    },
+    {
+        "command": "please enter the bathroom and go towards the sink on the left hand side",
+        "cfr": "ENTERING(goal:\"the bathroom\")#MOTION(goal:\"towards the sink on the left hand side\")"
+    },
+    {
+        "command": "follow my friend into the living room",
+        "cfr": "FOLLOWING(cotheme:\"my friend\",goal:\"into the living room\")"
+    },
+    {
+        "command": "could you please go to the door",
+        "cfr": "MOTION(goal:\"to the door\",theme:\"you\")"
+    },
+    {
+        "command": "can you go to the bathroom please",
+        "cfr": "MOTION(goal:\"to the bathroom\",theme:\"you\")"
+    },
+    {
+        "command": "bring slowly the box near the counter of the kitchen",
+        "cfr": "BRINGING(manner:\"slowly\",theme:\"the box\",goal:\"near the counter of the kitchen\")"
+    },
+    {
+        "command": "there is some bread on the desk",
+        "cfr": "BEING_LOCATED(theme:\"some bread\",location:\"on the desk\")"
+    },
+    {
+        "command": "go along with them",
+        "cfr": "FOLLOWING(cotheme:\"with them\")"
+    },
+    {
+        "command": "follow me",
+        "cfr": "FOLLOWING(cotheme:\"me\")"
+    },
+    {
+        "command": "robot please follow the postman",
+        "cfr": "FOLLOWING(cotheme:\"the postman\")"
+    },
+    {
+        "command": "this is a bedroom with big double bed and two bedside tables",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"a bedroom with big double bed and two bedside tables\")"
+    },
+    {
+        "command": "please go to the mirror",
+        "cfr": "MOTION(goal:\"to the mirror\")"
+    },
+    {
+        "command": "would you please follow me to the kitchen",
+        "cfr": "FOLLOWING(cotheme:\"me\",theme:\"you\",goal:\"to the kitchen\")"
+    },
+    {
+        "command": "go in front of the main door and open it",
+        "cfr": "MOTION(goal:\"in front of the main door\")#CLOSURE(container_portal:\"it\")"
+    },
+    {
+        "command": "go follow my sister around the house",
+        "cfr": "FOLLOWING(cotheme:\"my sister\",path:\"around the house\")"
+    },
+    {
+        "command": "please pick my mobile phone and put it on the chair near the table",
+        "cfr": "TAKING(theme:\"my mobile phone\")#PLACING(goal:\"on the chair near the table\",theme:\"it\")"
+    },
+    {
+        "command": "there are two couches facing one another",
+        "cfr": "BEING_LOCATED(theme:\"two couches facing one another\")"
+    },
+    {
+        "command": "find the glasses on the table",
+        "cfr": "SEARCHING(phenomenon:\"the glasses\",ground:\"on the table\")"
+    },
+    {
+        "command": "robot please take the mug to the sink",
+        "cfr": "BRINGING(theme:\"the mug\",goal:\"to the sink\")"
+    },
+    {
+        "command": "can you please bring my phone to the bathroom",
+        "cfr": "BRINGING(agent:\"you\",theme:\"my phone\",goal:\"to the bathroom\")"
+    },
+    {
+        "command": "can you please search the book and bring it to me",
+        "cfr": "SEARCHING(cognizer:\"you\",phenomenon:\"the book\")#BRINGING(beneficiary:\"to me\",theme:\"it\")"
+    },
+    {
+        "command": "come with me",
+        "cfr": "FOLLOWING(cotheme:\"with me\")"
+    },
+    {
+        "command": "please find the flowers",
+        "cfr": "SEARCHING(phenomenon:\"the flowers\")"
+    },
+    {
+        "command": "go close to the shower",
+        "cfr": "MOTION(goal:\"close to the shower\")"
+    },
+    {
+        "command": "go to the living room and find a drink for me",
+        "cfr": "MOTION(goal:\"to the living room\")#SEARCHING(phenomenon:\"a drink\",purpose:\"for me\")"
+    },
+    {
+        "command": "can you place the mug to the head of the table",
+        "cfr": "PLACING(agent:\"you\",goal:\"to the head of the table\",theme:\"the mug\")"
+    },
+    {
+        "command": "michael follow the guy with the red hoodie and the white shoes",
+        "cfr": "FOLLOWING(cotheme:\"the guy with the red hoodie and the white shoes\")"
+    },
+    {
+        "command": "please find me the black cushion which is on the bed",
+        "cfr": "SEARCHING(phenomenon:\"the black cushion which is on the bed\",purpose:\"me\")#BEING_LOCATED(theme:\"the black cushion\",location:\"on the bed\")"
+    },
+    {
+        "command": "the fridge is on your right side",
+        "cfr": "BEING_LOCATED(theme:\"the fridge\",location:\"on your right side\")"
+    },
+    {
+        "command": "please follow me to the table",
+        "cfr": "FOLLOWING(cotheme:\"me\",goal:\"to the table\")"
+    },
+    {
+        "command": "go to the sofa and search for the pillow",
+        "cfr": "MOTION(goal:\"to the sofa\")#SEARCHING(phenomenon:\"for the pillow\")"
+    },
+    {
+        "command": "go to the dining room",
+        "cfr": "MOTION(goal:\"to the dining room\")"
+    },
+    {
+        "command": "please go to the chair",
+        "cfr": "MOTION(goal:\"to the chair\")"
+    },
+    {
+        "command": "search for the bottle of wine on the table",
+        "cfr": "SEARCHING(phenomenon:\"for the bottle of wine\",ground:\"on the table\")"
+    },
+    {
+        "command": "please find the lamp",
+        "cfr": "SEARCHING(phenomenon:\"the lamp\")"
+    },
+    {
+        "command": "please move to the fridge",
+        "cfr": "MOTION(goal:\"to the fridge\")"
+    },
+    {
+        "command": "bring the book near the lamp",
+        "cfr": "BRINGING(theme:\"the book\",goal:\"near the lamp\")"
+    },
+    {
+        "command": "follow the person in front of you",
+        "cfr": "FOLLOWING(cotheme:\"the person in front of you\")"
+    },
+    {
+        "command": "this is a table with a glass deck",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"a table with a glass deck\")"
+    },
+    {
+        "command": "deliver this message to the person in the living room",
+        "cfr": "BRINGING(beneficiary:\"to the person in the living room\",theme:\"this message\")"
+    },
+    {
+        "command": "would you please bring me my phone from the bed room",
+        "cfr": "BRINGING(agent:\"you\",beneficiary:\"me\",theme:\"my phone\",source:\"from the bed room\")"
+    },
+    {
+        "command": "put the cell phone on the dining room table",
+        "cfr": "PLACING(goal:\"on the dining room table\",theme:\"the cell phone\")"
+    },
+    {
+        "command": "take my phone into the living room",
+        "cfr": "BRINGING(theme:\"my phone\",goal:\"into the living room\")"
+    },
+    {
+        "command": "go to the fridge inside the kitchen",
+        "cfr": "MOTION(goal:\"to the fridge inside the kitchen\")"
+    },
+    {
+        "command": "find me a cushion",
+        "cfr": "SEARCHING(phenomenon:\"a cushion\",purpose:\"me\")"
+    },
+    {
+        "command": "put the mug in the living room",
+        "cfr": "PLACING(goal:\"in the living room\",theme:\"the mug\")"
+    },
+    {
+        "command": "put the coffee mug into the dishwasher",
+        "cfr": "PLACING(goal:\"into the dishwasher\",theme:\"the coffee mug\")"
+    },
+    {
+        "command": "go to the bathroom",
+        "cfr": "MOTION(goal:\"to the bathroom\")"
+    },
+    {
+        "command": "michael carry me the phone that is on the glass table in the dining room",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"the phone that is on the glass table in the dining room\")#BEING_LOCATED(theme:\"the phone\",location:\"on the glass table in the dining room\")"
+    },
+    {
+        "command": "take the remote control and turn on the tv",
+        "cfr": "TAKING(theme:\"the remote control\")#CHANGE_OPERATIONAL_STATE(device:\"the tv\",operational_state:\"on\")"
+    },
+    {
+        "command": "can you please go to the living room",
+        "cfr": "MOTION(goal:\"to the living room\",theme:\"you\")"
+    },
+    {
+        "command": "follow the person behind me",
+        "cfr": "FOLLOWING(cotheme:\"the person behind me\")"
+    },
+    {
+        "command": "carry the phone to the chair",
+        "cfr": "BRINGING(theme:\"the phone\",goal:\"to the chair\")"
+    },
+    {
+        "command": "please move to the far end of this table",
+        "cfr": "MOTION(goal:\"to the far end of this table\")"
+    },
+    {
+        "command": "find the red pillow",
+        "cfr": "SEARCHING(phenomenon:\"the red pillow\")"
+    },
+    {
+        "command": "put my mobile phone on the kitchen table",
+        "cfr": "PLACING(goal:\"on the kitchen table\",theme:\"my mobile phone\")"
+    },
+    {
+        "command": "can you take the mug to the coffee table in the living room",
+        "cfr": "BRINGING(agent:\"you\",theme:\"the mug\",goal:\"to the coffee table in the living room\")"
+    },
+    {
+        "command": "robot this is the bedroom with a double bed with two lights next to it",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"the bedroom with a double bed with two lights next to it\")"
+    },
+    {
+        "command": "find the lamp in the living room",
+        "cfr": "SEARCHING(phenomenon:\"the lamp\",ground:\"in the living room\")"
+    },
+    {
+        "command": "can you please move near the right lamp",
+        "cfr": "MOTION(goal:\"near the right lamp\",theme:\"you\")"
+    },
+    {
+        "command": "please go to the sink",
+        "cfr": "MOTION(goal:\"to the sink\")"
+    },
+    {
+        "command": "bring me yogurt from the fridge",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"yogurt\",source:\"from the fridge\")"
+    },
+    {
+        "command": "this is a bed room",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"a bed room\")"
+    },
+    {
+        "command": "this is a living room with white furniture",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"a living room with white furniture\")"
+    },
+    {
+        "command": "follow the guy with the blue jacket",
+        "cfr": "FOLLOWING(cotheme:\"the guy with the blue jacket\")"
+    },
+    {
+        "command": "bring me my towel that is in the bathroom",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"my towel that is in the bathroom\")#BEING_LOCATED(theme:\"that\",location:\"in the bathroom\")"
+    },
+    {
+        "command": "get my coat from the closet",
+        "cfr": "TAKING(theme:\"my coat\",source:\"from the closet\")"
+    },
+    {
+        "command": "bring the phone to the dinner table",
+        "cfr": "BRINGING(theme:\"the phone\",goal:\"to the dinner table\")"
+    },
+    {
+        "command": "michael find my book on the sofa near the window",
+        "cfr": "SEARCHING(phenomenon:\"my book\",ground:\"on the sofa near the window\")"
+    },
+    {
+        "command": "can you follow my mother to the garden",
+        "cfr": "FOLLOWING(cotheme:\"my mother\",theme:\"you\",goal:\"to the garden\")"
+    },
+    {
+        "command": "the living room is very light and bright",
+        "cfr": "BEING_IN_CATEGORY(item:\"the living room\",category:\"very light and bright\")"
+    },
+    {
+        "command": "get the blue slippers from the bathroom",
+        "cfr": "TAKING(theme:\"the blue slippers\",source:\"from the bathroom\")"
+    },
+    {
+        "command": "can you grab my wine glass from the dining room",
+        "cfr": "TAKING(theme:\"my wine glass\",agent:\"you\",source:\"from the dining room\")"
+    },
+    {
+        "command": "bring the mug to the kitchen",
+        "cfr": "BRINGING(theme:\"the mug\",goal:\"to the kitchen\")"
+    },
+    {
+        "command": "bring the cigarettes near the counter on the right",
+        "cfr": "BRINGING(theme:\"the cigarettes\",goal:\"near the counter on the right\")"
+    },
+    {
+        "command": "follow me carefully",
+        "cfr": "FOLLOWING(cotheme:\"me\",manner:\"carefully\")"
+    },
+    {
+        "command": "take my cellphone to the bedroom",
+        "cfr": "BRINGING(theme:\"my cellphone\",goal:\"to the bedroom\")"
+    },
+    {
+        "command": "find a plate",
+        "cfr": "SEARCHING(phenomenon:\"a plate\")"
+    },
+    {
+        "command": "give me one apple from the table",
+        "cfr": "GIVING(recipient:\"me\",theme:\"one apple from the table\")"
+    },
+    {
+        "command": "go to living room and turn on the tv",
+        "cfr": "MOTION(goal:\"to living room\")#CHANGE_OPERATIONAL_STATE(device:\"the tv\",operational_state:\"on\")"
+    },
+    {
+        "command": "can you slowly follow my father",
+        "cfr": "FOLLOWING(cotheme:\"my father\",manner:\"slowly\",theme:\"you\")"
+    },
+    {
+        "command": "follow the man in black",
+        "cfr": "FOLLOWING(cotheme:\"the man in black\")"
+    },
+    {
+        "command": "this is a very wide and bright livingroom",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"a very wide and bright livingroom\")"
+    },
+    {
+        "command": "search for towel",
+        "cfr": "SEARCHING(phenomenon:\"for towel\")"
+    },
+    {
+        "command": "hey robot take the book and put it in the oven",
+        "cfr": "PLACING(goal:\"in the oven\",theme:\"it\")#TAKING(theme:\"the book\")"
+    },
+    {
+        "command": "take the mug to the bedroom",
+        "cfr": "BRINGING(theme:\"the mug\",goal:\"to the bedroom\")"
+    },
+    {
+        "command": "move to the living room",
+        "cfr": "MOTION(goal:\"to the living room\")"
+    },
+    {
+        "command": "give me the towel",
+        "cfr": "GIVING(recipient:\"me\",theme:\"the towel\")"
+    },
+    {
+        "command": "move to the lamp on the right side of the bed",
+        "cfr": "MOTION(goal:\"to the lamp on the right side of the bed\")"
+    },
+    {
+        "command": "search for the lamp",
+        "cfr": "SEARCHING(phenomenon:\"for the lamp\")"
+    },
+    {
+        "command": "please find the fruit",
+        "cfr": "SEARCHING(phenomenon:\"the fruit\")"
+    },
+    {
+        "command": "in this room there are six chairs",
+        "cfr": "BEING_LOCATED(theme:\"six chairs\",location:\"in this room\")"
+    },
+    {
+        "command": "could you find a glass in the dining room",
+        "cfr": "SEARCHING(cognizer:\"you\",phenomenon:\"a glass\",ground:\"in the dining room\")"
+    },
+    {
+        "command": "move near the television of the kitchen",
+        "cfr": "MOTION(goal:\"near the television of the kitchen\")"
+    },
+    {
+        "command": "you are in the bedroom and the bed is between two lamps",
+        "cfr": "BEING_LOCATED(theme:\"you\",location:\"in the bedroom\")#BEING_LOCATED(theme:\"the bed\",location:\"between two lamps\")"
+    },
+    {
+        "command": "go to the bathroom take the rag go to the hall and clean the mirror",
+        "cfr": "MOTION(goal:\"to the bathroom\")#TAKING(theme:\"the rag\")#MOTION(goal:\"to the hall\")"
+    },
+    {
+        "command": "bring mug to bedroom",
+        "cfr": "BRINGING(theme:\"mug\",goal:\"to bedroom\")"
+    },
+    {
+        "command": "you are in a very big bathroom",
+        "cfr": "BEING_LOCATED(theme:\"you\",location:\"in a very big bathroom\")"
+    },
+    {
+        "command": "please follow me slowly",
+        "cfr": "FOLLOWING(cotheme:\"me\",manner:\"slowly\")"
+    },
+    {
+        "command": "carry the book to my nightstand",
+        "cfr": "BRINGING(theme:\"the book\",goal:\"to my nightstand\")"
+    },
+    {
+        "command": "hang this jacket in the closet of the corridor",
+        "cfr": "PLACING(goal:\"in the closet of the corridor\",theme:\"this jacket\")"
+    },
+    {
+        "command": "could you please move the trash bin from the kitchen to the studio",
+        "cfr": "BRINGING(agent:\"you\",theme:\"the trash bin\",goal:\"to the studio\",source:\"from the kitchen\")"
+    },
+    {
+        "command": "check the toilet paper",
+        "cfr": "INSPECTING(ground:\"the toilet paper\")"
+    },
+    {
+        "command": "grab the box on the left of the desktop",
+        "cfr": "TAKING(theme:\"the box on the left of the desktop\")"
+    },
+    {
+        "command": "robot go to the shower",
+        "cfr": "MOTION(goal:\"to the shower\")"
+    },
+    {
+        "command": "can you go over to the sofa",
+        "cfr": "MOTION(goal:\"over to the sofa\",theme:\"you\")"
+    },
+    {
+        "command": "find the refrigerator",
+        "cfr": "SEARCHING(phenomenon:\"the refrigerator\")"
+    },
+    {
+        "command": "can you bring the mug to the couch in the living room please",
+        "cfr": "BRINGING(agent:\"you\",theme:\"the mug\",goal:\"to the couch in the living room\")"
+    },
+    {
+        "command": "put the book on the chair near the dining table",
+        "cfr": "PLACING(goal:\"on the chair near the dining table\",theme:\"the book\")"
+    },
+    {
+        "command": "go to the dining table",
+        "cfr": "MOTION(goal:\"to the dining table\")"
+    },
+    {
+        "command": "move to the left of the table",
+        "cfr": "MOTION(goal:\"to the left of the table\")"
+    },
+    {
+        "command": "can you go to the kitchen and bring me some bread from the pantry",
+        "cfr": "MOTION(goal:\"to the kitchen\",theme:\"you\")#BRINGING(beneficiary:\"me\",theme:\"some bread\",source:\"from the pantry\")"
+    },
+    {
+        "command": "could you please move to the sink and open the cold water",
+        "cfr": "MOTION(goal:\"to the sink\",theme:\"you\")#CHANGE_OPERATIONAL_STATE(device:\"the cold water\")"
+    },
+    {
+        "command": "this is a bedroom with one bed and two night stands",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"a bedroom with one bed and two night stands\")"
+    },
+    {
+        "command": "bring me the pillow from the bed",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"the pillow\",source:\"from the bed\")"
+    },
+    {
+        "command": "go quickly to the corner and follow the skinny person",
+        "cfr": "MOTION(goal:\"to the corner\",manner:\"quickly\")#FOLLOWING(cotheme:\"the skinny person\")"
+    },
+    {
+        "command": "this is a double bedroom with four pictures on the wall",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"a double bedroom with four pictures on the wall\")"
+    },
+    {
+        "command": "this is a bed room where we can find a bed and few pillows and two clops",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"a bed room\")"
+    },
+    {
+        "command": "follow this guy",
+        "cfr": "FOLLOWING(cotheme:\"this guy\")"
+    },
+    {
+        "command": "follow the man closely",
+        "cfr": "FOLLOWING(cotheme:\"the man\",manner:\"closely\")"
+    },
+    {
+        "command": "can you please follow that guy over there",
+        "cfr": "FOLLOWING(cotheme:\"that guy over there\",theme:\"you\")"
+    },
+    {
+        "command": "this is a bathroom where the door is on the right",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"a bathroom where the door is on the right\")#BEING_LOCATED(theme:\"the door\",place:\"on the right\")"
+    },
+    {
+        "command": "could you please check if the coffee is ready",
+        "cfr": "INSPECTING(ground:\"the coffee\",desired_state:\"is ready\",inspector:\"you\")"
+    },
+    {
+        "command": "follow the person with the blonde hair and the black pants fast",
+        "cfr": "FOLLOWING(cotheme:\"the person with the blonde hair and the black pants\",speed:\"fast\")"
+    },
+    {
+        "command": "disconnect from the laptop at the right of the counter",
+        "cfr": "ATTACHING(goal:\"from the laptop at the right of the counter\")"
+    },
+    {
+        "command": "there are two sinks in the kitchen",
+        "cfr": "BEING_LOCATED(theme:\"two sinks\",location:\"in the kitchen\")"
+    },
+    {
+        "command": "there is a table in the center of the dining room",
+        "cfr": "BEING_LOCATED(theme:\"a table\",location:\"in the center of the dining room\")"
+    },
+    {
+        "command": "follow me very fast",
+        "cfr": "FOLLOWING(cotheme:\"me\",manner:\"very fast\")"
+    },
+    {
+        "command": "this is a bathroom with a shower bath and double sink",
+        "cfr": "BEING_IN_CATEGORY(item:\"this\",category:\"a bathroom with a shower bath and double sink\")"
+    },
+    {
+        "command": "please follow the person in front of you",
+        "cfr": "FOLLOWING(cotheme:\"the person in front of you\")"
+    },
+    {
+        "command": "go to the kitchen",
+        "cfr": "MOTION(goal:\"to the kitchen\")"
+    },
+    {
+        "command": "follow the person in front of me",
+        "cfr": "FOLLOWING(cotheme:\"the person in front of me\")"
+    },
+    {
+        "command": "the bath-tub is on the left side",
+        "cfr": "BEING_LOCATED(theme:\"the bath-tub\",location:\"on the left side\")"
+    },
+    {
+        "command": "there is a bed with two lamps",
+        "cfr": "BEING_LOCATED(theme:\"a bed with two lamps\")"
+    },
+    {
+        "command": "drive to the fridge",
+        "cfr": "MOTION(goal:\"to the fridge\")"
+    },
+    {
+        "command": "can you bring me the coke from the fridge",
+        "cfr": "BRINGING(agent:\"you\",beneficiary:\"me\",theme:\"the coke\",source:\"from the fridge\")"
+    },
+    {
+        "command": "follow me to the bedroom",
+        "cfr": "FOLLOWING(cotheme:\"me\",goal:\"to the bedroom\")"
+    },
+    {
+        "command": "go to the bedroom",
+        "cfr": "MOTION(goal:\"to the bedroom\")"
+    },
+    {
+        "command": "fetch me the tissue box",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"the tissue box\")"
+    },
+    {
+        "command": "follow the person behind you",
+        "cfr": "FOLLOWING(cotheme:\"the person behind you\")"
+    },
+    {
+        "command": "bring me my telephone from the couch",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"my telephone\",source:\"from the couch\")"
+    },
+    {
+        "command": "bring the phone to the living room",
+        "cfr": "BRINGING(theme:\"the phone\",goal:\"to the living room\")"
+    },
+    {
+        "command": "please go to the table",
+        "cfr": "MOTION(goal:\"to the table\")"
+    },
+    {
+        "command": "bring me the towel from the bathroom",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"the towel\",source:\"from the bathroom\")"
+    },
+    {
+        "command": "can you find the refrigerator for me",
+        "cfr": "SEARCHING(cognizer:\"you\",phenomenon:\"the refrigerator\",purpose:\"for me\")"
+    },
+    {
+        "command": "there is a radio next to the bed",
+        "cfr": "BEING_LOCATED(theme:\"a radio\",location:\"next to the bed\")"
+    },
+    {
+        "command": "please follow me",
+        "cfr": "FOLLOWING(cotheme:\"me\")"
+    },
+    {
+        "command": "carry the mug to the dining room",
+        "cfr": "BRINGING(theme:\"the mug\",goal:\"to the dining room\")"
+    },
+    {
+        "command": "please move to the front of the fridge",
+        "cfr": "MOTION(goal:\"to the front of the fridge\")"
+    },
+    {
+        "command": "please bring the mug to the bedroom",
+        "cfr": "BRINGING(theme:\"the mug\",goal:\"to the bedroom\")"
+    },
+    {
+        "command": "the sink is in the kitchen",
+        "cfr": "BEING_LOCATED(theme:\"the sink\",location:\"in the kitchen\")"
+    },
+    {
+        "command": "follow that person",
+        "cfr": "FOLLOWING(cotheme:\"that person\")"
+    },
+    {
+        "command": "search for the coffee cups",
+        "cfr": "SEARCHING(phenomenon:\"for the coffee cups\")"
+    },
+    {
+        "command": "hang my coat in the closet in my bedroom",
+        "cfr": "PLACING(goal:\"in the closet in my bedroom\",theme:\"my coat\")"
+    },
+    {
+        "command": "move to the bedroom",
+        "cfr": "MOTION(goal:\"to the bedroom\")"
+    },
+    {
+        "command": "take my wristwatch",
+        "cfr": "TAKING(theme:\"my wristwatch\")"
+    },
+    {
+        "command": "bring me the cookie jar",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"the cookie jar\")"
+    },
+    {
+        "command": "find my tablet",
+        "cfr": "SEARCHING(theme:\"my tablet\")"
+    },
+    {
+        "command": "let go of the pack of beer",
+        "cfr": "PLACING(theme:\"the pack of beer\")"
+    },
+    {
+        "command": "go to the garden",
+        "cfr": "MOTION(goal:\"to the garden\")"
+    },
+    {
+        "command": "go next to the door",
+        "cfr": "MOTION(goal:\"next to the door\")"
+    },
+    {
+        "command": "grab this mug",
+        "cfr": "TAKING(theme:\"this mug\")"
+    },
+    {
+        "command": "go close to the window",
+        "cfr": "MOTION(goal:\"close to the window\")"
+    },
+    {
+        "command": "put my jacket on the bed",
+        "cfr": "PLACING(theme:\"my jacket\",goal:\"on the bed\")"
+    },
+    {
+        "command": "put this pan on the stove",
+        "cfr": "PLACING(theme:\"this pan\",goal:\"on the stove\")"
+    },
+    {
+        "command": "please move along the fences",
+        "cfr": "MOTION(path:\"along the fences\")"
+    },
+    {
+        "command": "grab the book with the blue cover",
+        "cfr": "TAKING(theme:\"the book with the blue cover\")"
+    },
+    {
+        "command": "take the forks from the dishwasher",
+        "cfr": "TAKING(theme:\"the forks\",source:\"from the dishwasher\")"
+    },
+    {
+        "command": "robot could you move near the table",
+        "cfr": "MOTION(goal:\"near the table\")"
+    },
+    {
+        "command": "bring the fruit onto the dining table",
+        "cfr": "BRINGING(theme:\"the fruit\",goal:\"onto the dining table\")"
+    },
+    {
+        "command": "put my clothes in the washing machine",
+        "cfr": "PLACING(theme:\"my clothes\",goal:\"in the washing machine\")"
+    },
+    {
+        "command": "could you please bring us some water",
+        "cfr": "BRINGING(beneficiary:\"us\",theme:\"some water\")"
+    },
+    {
+        "command": "carefully search for my wallet please",
+        "cfr": "SEARCHING(theme:\"for my wallet\")"
+    },
+    {
+        "command": "search the living room for my mobile phone",
+        "cfr": "SEARCHING(theme:\"for my mobile phone\",ground:\"the living room\")"
+    },
+    {
+        "command": "take three coffee cups and bring them to me",
+        "cfr": "TAKING(theme:\"three coffee cups\")#BRINGING(theme:\"them\",beneficiary:\"to me\")"
+    },
+    {
+        "command": "please take some pasta from the kitchen cabinet",
+        "cfr": "TAKING(theme:\"some pasta\",source:\"from the kitchen cabinet\")"
+    },
+    {
+        "command": "go in the bathroom and find the newspaper",
+        "cfr": "MOTION(goal:\"in the bathroom\")#SEARCHING(theme:\"the newspaper\")"
+    },
+    {
+        "command": "bring the beers here and put them on the table next to the couch",
+        "cfr": "BRINGING(goal:\"here\",theme:\"the beers\")#PLACING(theme:\"them\",goal:\"on the table next to the couch\")"
+    },
+    {
+        "command": "take my jacket from the jacket hook in my bedroom",
+        "cfr": "TAKING(theme:\"my jacket\",source:\"from the jacket hook in my bedroom\")"
+    },
+    {
+        "command": "robot why don't you go around and search for my hat",
+        "cfr": "MOTION(path:\"around\")#SEARCHING(theme:\"for my hat\")"
+    },
+    {
+        "command": "there are some napkins on the kitchen table can you bring them here",
+        "cfr": "BRINGING(goal:\"here\",theme:\"them\")"
+    },
+    {
+        "command": "robot i need you in the bathroom go there please",
+        "cfr": "MOTION(goal:\"there\")"
+    },
+    {
+        "command": "go in the kitchen and switch off the coffee machine and the dishwasher",
+        "cfr": "MOTION(goal:\"in the kitchen\")"
+    },
+    {
+        "command": "there are some plastic bags in the kitchen drawer can you take one an bring it here",
+        "cfr": "TAKING(theme:\"one\")#BRINGING(theme:\"it\",goal:\"here\")"
+    },
+    {
+        "command": "move to bedroom",
+        "cfr": "MOTION(goal:\"to bedroom\")"
+    },
+    {
+        "command": "go to the dining room",
+        "cfr": "MOTION(goal:\"to the dining room\")"
+    },
+    {
+        "command": "take the glass jar",
+        "cfr": "TAKING(theme:\"the glass jar\")"
+    },
+    {
+        "command": "bring me the bottle",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"the bottle\")"
+    },
+    {
+        "command": "find the wallet",
+        "cfr": "SEARCHING(theme:\"the wallet\")"
+    },
+    {
+        "command": "put down the newspaper",
+        "cfr": "PLACING(goal:\"down\",theme:\"the newspaper\")"
+    },
+    {
+        "command": "take the salt box",
+        "cfr": "TAKING(theme:\"the salt box\")"
+    },
+    {
+        "command": "put the pillow on the bed",
+        "cfr": "PLACING(theme:\"the pillow\",goal:\"on the bed\")"
+    },
+    {
+        "command": "grab the cake plate",
+        "cfr": "TAKING(theme:\"the cake plate\")"
+    },
+    {
+        "command": "go to the coffee machine",
+        "cfr": "MOTION(goal:\"to the coffee machine\")"
+    },
+    {
+        "command": "find a magazine",
+        "cfr": "SEARCHING(theme:\"a magazine\")"
+    },
+    {
+        "command": "put the milk in the fridge",
+        "cfr": "PLACING(goal:\"in the fridge\",theme:\"the milk\")"
+    },
+    {
+        "command": "go in front of the poster",
+        "cfr": "MOTION(goal:\"in front of the poster\")"
+    },
+    {
+        "command": "put the pillow on the chair",
+        "cfr": "PLACING(goal:\"on the chair\",theme:\"the pillow\")"
+    },
+    {
+        "command": "put the mobile phone in the nightstand",
+        "cfr": "PLACING(goal:\"in the nightstand\",theme:\"the mobile phone\")"
+    },
+    {
+        "command": "search the living room for the remote control",
+        "cfr": "SEARCHING(theme:\"for the remote control\",ground:\"the living room\")"
+    },
+    {
+        "command": "take the bottle of water on the table",
+        "cfr": "TAKING(theme:\"the bottle of water\",source:\"on the table\")"
+    },
+    {
+        "command": "go in the dining room and remove the tablecloth",
+        "cfr": "MOTION(goal:\"in the dining room\")"
+    },
+    {
+        "command": "can you bring the mayo over here",
+        "cfr": "BRINGING(goal:\"over here\",theme:\"the mayo\")"
+    },
+    {
+        "command": "grab the beer pack near the kitchen door",
+        "cfr": "TAKING(theme:\"the beer pack\",source:\"near the kitchen door\")"
+    },
+    {
+        "command": "take the beer cans in the kitchen",
+        "cfr": "TAKING(theme:\"the beer cans\",source:\"in the kitchen\")"
+    },
+    {
+        "command": "take the magazine that is in the bathroom",
+        "cfr": "TAKING(theme:\"the magazine\",source:\"in the bathroom\")"
+    },
+    {
+        "command": "put the soap on the bathroom sink",
+        "cfr": "PLACING(goal:\"the soap\",theme:\"in the bathroom sink\")"
+    },
+    {
+        "command": "can you find a red t-shirt in the dresser",
+        "cfr": "SEARCHING(theme:\"a red t-shirt\",ground:\"in the dresser\")"
+    },
+    {
+        "command": "can you go to the kitchen find a glass and bring it to me",
+        "cfr": "MOTION(goal:\"to the kitchen\")#SEARCHING(theme:\"a glass\")#BRINGING(theme:\"it\",beneficiary:\"to me\")"
+    },
+    {
+        "command": "there's a yellow jacket in the dining room can you bring it to me",
+        "cfr": "BRINGING(beneficiary:\"to me\",theme:\"it\")"
+    },
+    {
+        "command": "do you think you can find my wallet",
+        "cfr": "SEARCHING(theme:\"my wallet\")"
+    },
+    {
+        "command": "can you bring me my eyeglass you can find it on the table in the dining room",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"my eyeglass\")#SEARCHING(theme:\"it\",ground:\"on the table in the dining room\")"
+    },
+    {
+        "command": "i lost my ring in the living room can you search for it maybe it's near the sofa",
+        "cfr": "SEARCHING(theme:\"for it\")"
+    },
+    {
+        "command": "i would like some beer can you grab one from the fridge and bring it here",
+        "cfr": "TAKING(theme:\"one\",source:\"from the fridge\")#BRINGING(theme:\"it\",goal:\"here\")"
+    },
+    {
+        "command": "go to the lounge",
+        "cfr": "MOTION(goal:\"to the lounge\")"
+    },
+    {
+        "command": "move to the dining room",
+        "cfr": "MOTION(goal:\"to the dining room\")"
+    },
+    {
+        "command": "take the cereal box",
+        "cfr": "TAKING(theme:\"the cereal box\")"
+    },
+    {
+        "command": "grab the key lanyard",
+        "cfr": "TAKING(theme:\"the key lanyard\")"
+    },
+    {
+        "command": "bring me the glasses",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"the glasses\")"
+    },
+    {
+        "command": "find the keys",
+        "cfr": "SEARCHING(theme:\"the keys\")"
+    },
+    {
+        "command": "search for a blue plate",
+        "cfr": "SEARCHING(theme:\"for a blue plate\")"
+    },
+    {
+        "command": "drop the vase",
+        "cfr": "PLACING(theme:\"the vase\")"
+    },
+    {
+        "command": "release the bag",
+        "cfr": "PLACING(theme:\"the bag\")"
+    },
+    {
+        "command": "go next to the tv set",
+        "cfr": "MOTION(goal:\"next to the tv set\")"
+    },
+    {
+        "command": "go to the right of the sofa",
+        "cfr": "MOTION(goal:\"to the right of the sofa\")"
+    },
+    {
+        "command": "look for my mobile phone",
+        "cfr": "SEARCHING(theme:\"for my mobile phone\")"
+    },
+    {
+        "command": "take the apple jam jar",
+        "cfr": "TAKING(theme:\"the apple jam jar\")"
+    },
+    {
+        "command": "put the kettle on the stove",
+        "cfr": "PLACING(goal:\"on the stove\",theme:\"the kettle\")"
+    },
+    {
+        "command": "take the knife with the black handle",
+        "cfr": "TAKING(theme:\"the knife with the black handle\")"
+    },
+    {
+        "command": "take the orange juice from the fridge",
+        "cfr": "TAKING(theme:\"the orange juice\",source:\"from the fridge\")"
+    },
+    {
+        "command": "please find the sunglasses",
+        "cfr": "SEARCHING(theme:\"the sunglasses\")"
+    },
+    {
+        "command": "can you bring the glass to the sink",
+        "cfr": "BRINGING(theme:\"the glass\",goal:\"to the sink\")"
+    },
+    {
+        "command": "search for the scissors in the red drawer",
+        "cfr": "SEARCHING(theme:\"for the scissors\",ground:\"in the red drawer\")"
+    },
+    {
+        "command": "take the black paperback from the bookshelf",
+        "cfr": "TAKING(theme:\"the black paperback\",source:\"from the bookshelf\")"
+    },
+    {
+        "command": "bring the toilet paper to the bathroom",
+        "cfr": "BRINGING(goal:\"to the bathroom\",theme:\"the toilet paper\")"
+    },
+    {
+        "command": "robot please search for the horn glasses",
+        "cfr": "SEARCHING(theme:\"for the horn glasses\")"
+    },
+    {
+        "command": "robot can you bring the cornflakes box from the kitchen table",
+        "cfr": "BRINGING(theme:\"the cornflakes box\",source:\"from the kitchen table\")"
+    },
+    {
+        "command": "you should bring me the brown envelope that is on the table",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"the brown envelope\")"
+    },
+    {
+        "command": "take the coffee mugs from the kitchen cabinet and put them on the table",
+        "cfr": "TAKING(theme:\"the coffee mugs\",source:\"from the kitchen cabinet\")#PLACING(theme:\"them\",goal:\"on the table\")"
+    },
+    {
+        "command": "there's a wristwatch on the couch side table can you bring it to me",
+        "cfr": "BRINGING(beneficiary:\"to me\",theme:\"it\")"
+    },
+    {
+        "command": "search for the scissors they should be in the blue drawer",
+        "cfr": "SEARCHING(theme:\"for the scissors\")"
+    },
+    {
+        "command": "could you go to the bedroom and take the postcard on the nightstand please",
+        "cfr": "MOTION(goal:\"to the bedroom\")#TAKING(theme:\"the postcard\",source:\"on the nightstand\")"
+    },
+    {
+        "command": "please robot put the pan on the stove and control it",
+        "cfr": "PLACING(goal:\"on the stove\",theme:\"the pan\")"
+    },
+    {
+        "command": "go near the lamp",
+        "cfr": "MOTION(goal:\"near the lamp\")"
+    },
+    {
+        "command": "move along the wall",
+        "cfr": "MOTION(path:\"along the wall\")"
+    },
+    {
+        "command": "take a coffee mug",
+        "cfr": "TAKING(theme:\"a coffee mug\")"
+    },
+    {
+        "command": "bring me a glass of water",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"a glass of water\")"
+    },
+    {
+        "command": "release the pot",
+        "cfr": "PLACING(theme:\"the pot\")"
+    },
+    {
+        "command": "go near the window",
+        "cfr": "MOTION(goal:\"near the window\")"
+    },
+    {
+        "command": "find a bottle of water",
+        "cfr": "SEARCHING(theme:\"a bottle of water\")"
+    },
+    {
+        "command": "bring us some mustard",
+        "cfr": "BRINGING(beneficiary:\"us\",theme:\"some mustard\")"
+    },
+    {
+        "command": "take the coke that is in the kitchen",
+        "cfr": "TAKING(theme:\"the coke\",source:\"in the kitchen\")"
+    },
+    {
+        "command": "put this book on the bookshelf",
+        "cfr": "PLACING(theme:\"this book\",goal:\"on the bookshelf\")"
+    },
+    {
+        "command": "put the jacket in the wardrobe",
+        "cfr": "PLACING(theme:\"the jacket\",goal:\"in the wardrobe\")"
+    },
+    {
+        "command": "move away from the oven",
+        "cfr": "MOTION(goal:\"away from the oven\")"
+    },
+    {
+        "command": "bring me the cereals and the milk",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"the cereals and the milk\")"
+    },
+    {
+        "command": "please find the toilet paper",
+        "cfr": "SEARCHING(theme:\"the toilet paper\")"
+    },
+    {
+        "command": "can you bring me my tablet",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"my tablet\")"
+    },
+    {
+        "command": "put the baking tray in the oven",
+        "cfr": "PLACING(theme:\"the baking tray\",goal:\"in the oven\")"
+    },
+    {
+        "command": "look for a blue book in the lounge",
+        "cfr": "SEARCHING(theme:\"for a blue book\",ground:\"in the lounge\")"
+    },
+    {
+        "command": "robot can you find a pack of napkins",
+        "cfr": "SEARCHING(theme:\"a pack of napkins\")"
+    },
+    {
+        "command": "take the corn can on the kitchen table",
+        "cfr": "TAKING(theme:\"the corn can\",source:\"on the kitchen table\")"
+    },
+    {
+        "command": "robot put this plate in the center of the table",
+        "cfr": "PLACING(theme:\"this plate\",goal:\"in the center of the table\")"
+    },
+    {
+        "command": "could you take the knife on the cutting board",
+        "cfr": "TAKING(theme:\"the knife\",source:\"on the cutting board\")"
+    },
+    {
+        "command": "can you move a little bit to the right",
+        "cfr": "MOTION(goal:\"a little bit on the right\")"
+    },
+    {
+        "command": "robot carefully search the bedroom for my mobile phone",
+        "cfr": "SEARCHING(theme:\"for my mobile phone\",ground:\"the bedroom\")"
+    },
+    {
+        "command": "take my trousers on the bed and put them in the washing machine",
+        "cfr": "TAKING(theme:\"my trousers\",source:\"on the bed\")#PLACING(theme:\"them\",goal:\"in the washing machine\")"
+    },
+    {
+        "command": "go to the dining room take all the plates from the table and put them in the dishwasher",
+        "cfr": "MOTION(goal:\"to the dining room\")#TAKING(theme:\"all the plates\",source:\"from the table\")#PLACING(theme:\"them\",goal:\"in the dishwasher\")"
+    },
+    {
+        "command": "i need my watch find it please",
+        "cfr": "SEARCHING(theme:\"it\")"
+    },
+    {
+        "command": "i really need you to bring me my aspirin it is in one of the drawers of the bathroom",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"my aspirin\")"
+    },
+    {
+        "command": "robot listen go into the bedroom and find the black pen it should be on the nightstand",
+        "cfr": "MOTION(goal:\"into the bedroom\")#SEARCHING(theme:\"the black pen\")"
+    },
+    {
+        "command": "i want some fruit bring me an apple or an orange",
+        "cfr": "BRINGING(beneficiary:\"me\",theme:\"an apple or an orange\")"
+    },
+    {
+        "command": "sorry robot can you go to the kitchen and turn on the coffee machine",
+        "cfr": "MOTION(goal:\"to the kitchen\")"
+    }
+]

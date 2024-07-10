@@ -4,14 +4,16 @@
 
 1. [Introduction](#introduction)
 2. [Exercises](#exercises)
-   - [Exercise 1](#exercise-1)
-   - [Exercise 2](#exercise-2)
-   - [Exercise 3](#exercise-3)
-   - [Exercise 4](#exercise-4)
-   - [Exercise 5](#exercise-5)
-   - [Exercise 6](#exercise-6)
-   - [Exercise 7](#exercise-7)
+   - [Exercise 1: Deployment of Quantized LLMs](#exercise-1)
+   - [Exercise 2: Prompt Engineering with LangChain](#exercise-2)
+   - [Exercise 3: QLoRA Finetune LLMs](#exercise-3)
+   - [Exercise 4: RAG + Few-Shot + GBNF Grammars](#exercise-4)
+   - [Exercise 5: Merging LLMs](#exercise-5)
+   - [Exercise 6: Deployment of Quantized LLMs](#exercise-6)
+   - [Exercise 7: Using LLMs and VLMs in ROS 2](#exercise-7)
 3. [Acknowledgments](#acknowledgments)
+   - [DMARCE Project](#dmarce-project)
+   - [SELF-AIR Project](#self-air-project)
 
 ## Introduction
 
@@ -39,14 +41,34 @@ This exercise provides an example of using prompt engineering to obtain similar 
 
 ### Exercise 5
 
-This exercise presents a little example of using llama.cpp GGUF VLMs. A VLM is downloaded from Hugging Face and an image is downloaded from a URL to ask questions about it.
+Coming soon
 
 ### Exercise 6
 
-Coming soon
+This exercise presents a little example of using llama.cpp GGUF VLMs. A VLM is downloaded from Hugging Face and an image is downloaded from a URL to ask questions about it.
 
 ### Exercise 7
 
 This final exercise presents how to download llama.cpp GGUF LLMs and VLMs from Hugging Face and deploy and prompt them inside the ROS 2 ecosystem using llama_ros, which is llama.cpp for ROS 2.
 
 ## Acknowledgments
+
+### DMARCE Project
+
+Decision Making in Autonomous Robots: Cybersecurity and Explainability (DMARCE).
+
+DMARCE (EDMAR+CASCAR) Project: EDMAR PID2021-126592OB-C21 -- CASCAR PID2021-126592OB-C22 funded by MCIN/AEI/10.13039/501100011033 and by ERDF A way of making Europe
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/3810011/192087445-9aa45366-1fec-41f5-a7c9-fa612901ecd9.png" width="49%" /> <img src="https://raw.githubusercontent.com/DMARCE-PROJECT/DMARCE-PROJECT.github.io/main/logos/micin-uefeder-aei.png" width="46%" />
+</p>
+
+### SELF-AIR Project
+
+Supporting Extensive Livestock Farming with the use of Autonomous Intelligent Robots
+
+Grant TED2021-132356B-I00 funded by MCIN/AEI/10.13039/501100011033 and by the “European Union NextGenerationEU/PRTR"
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/shepherd-robot/.github/main/profile/robotics_wolf_minimal.png" width="13.5%" /> <img src="https://raw.githubusercontent.com/shepherd-robot/.github/main/profile/micin-financiadoUEnextgeneration-prtr-aei.png" width="60%" />
+</p>

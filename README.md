@@ -32,6 +32,9 @@ This course presents the exercises from the TAP (Tendencias en Aprendizaje Pronf
   - [llama.cpp](https://github.com/ggerganov/llama.cpp)
   - [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
   - [llama_ros](https://github.com/mgonzs13/llama_ros)
+  - [SileroVAD](https://github.com/snakers4/silero-vad)
+  - [whisper.cpp](https://github.com/ggerganov/whisper.cpp)
+  - [whisper_ros](https://github.com/mgonzs13/whisper_ros)
   - [LangChain](https://www.langchain.com/)
   - [Unsloth](https://unsloth.ai/)
   - [Gradio](https://www.gradio.app/)
@@ -80,7 +83,7 @@ These exercises present how to download [llama.cpp](https://github.com/ggerganov
 
 ### Exercises 9
 
-Coming Soon
+These exercises present how to download [whisper.cpp](https://github.com/ggerganov/whisper.cpp) and [SileroVAD](https://github.com/snakers4/silero-vad) models, from Hugging Face, to perform Automatic Speech Recognition (ASR) in ROS 2 ecosystem using [whisper_ros](https://github.com/mgonzs13/whisper_ros), which is [whisper.cpp](https://github.com/ggerganov/whisper.cpp) for ROS 2.
 
 ### Exercises 10
 

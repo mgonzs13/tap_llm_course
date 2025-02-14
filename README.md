@@ -81,7 +81,7 @@ These exercises present a basic example of using a VLM through [llama-cpp-python
 
 ### Exercises 7
 
-Coming Soon
+These exercises present a basic example of using a [Gradio](https://www.gradio.app/) to create a web chatbot. An LLM is deployed using [llama.cpp](https://github.com/ggerganov/llama.cpp). Then, the chatbot history is used to prompt the model. The resulting responses are shown in the web interface.
 
 ### Exercises 8
 

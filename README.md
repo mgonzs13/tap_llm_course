@@ -3,53 +3,88 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Exercises](#exercises)
-   - [Exercise 1: Deployment of Quantized LLMs](#exercise-1)
-   - [Exercise 2: Prompt Engineering with LangChain](#exercise-2)
-   - [Exercise 3: QLoRA Finetune LLMs](#exercise-3)
-   - [Exercise 4: RAG + Few-Shot + GBNF Grammars](#exercise-4)
-   - [Exercise 5: Merging LLMs](#exercise-5)
-   - [Exercise 6: Deployment of Quantized LLMs](#exercise-6)
-   - [Exercise 7: Using LLMs and VLMs in ROS 2](#exercise-7)
-3. [Acknowledgments](#acknowledgments)
+2. [Materials](#materials)
+3. [Exercises](#exercises)
+   - [Exercises 1: Deployment LLMs](#exercises-1)
+   - [Exercises 2: Prompt Engineering](#exercises-2)
+   - [Exercises 3: Fine-Tuning](#exercises-3)
+   - [Exercises 4: Model Merging](#exercises-4)
+   - [Exercises 5: Tool Calling](#exercises-5)
+   - [Exercises 6: Deployment VLMs](#exercises-6)
+   - [Exercises 7: Gradio](#exercises-7)
+   - [Exercises 8: LLMs in ROS 2](#exercises-8)
+   - [Exercises 9: Speech in ROS 2](#exercises-9)
+   - [Exercises 10: A Chatbot for ROS 2](#exercises-10)
+4. [Acknowledgments](#acknowledgments)
    - [DMARCE Project](#dmarce-project)
    - [SELF-AIR Project](#self-air-project)
 
 ## Introduction
 
-This course presents the exercises from the TAP (Tendencias en Aprendizaje Pronfundo) subject from the Master in Robotics and Artificial Intelligence. The goal of this course is to understand and get acquainted with LLMs and different techniques such as quantization, training through fintuning, QLoRA and Prompt Engineering. This way, these exercises are focused on downloading, deploying and prompting LLMs and VLMs in the robotics context.
+This course presents the exercises from the TAP (Tendencias en Aprendizaje Pronfundo) subject from the Master in Robotics and Artificial Intelligence from the Universidad de León. The goal of this course is to understand and get acquainted with LLMs and different techniques such as quantization, Prompt Engineering, training through Fine-Tuning, Model Merging, and Tool Calling for AI Agents. Additionally, other concepts like VLMs, UI for AI and AI in ROS 2 are also included. This way, these exercises are focused on downloading, deploying and prompting LLMs and VLMs in the robotics context.
+
+## Materials
+
+- Nvidia Driver 12.4
+
+- Libraries:
+
+  - [llama.cpp](https://github.com/ggerganov/llama.cpp)
+  - [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
+  - [llama_ros](https://github.com/mgonzs13/llama_ros)
+  - [LangChain](https://www.langchain.com/)
+  - [Unsloth](https://unsloth.ai/)
+  - [Gradio](https://www.gradio.app/)
+  - [ROS 2 Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
+
+- Models:
+  - [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)
+  - [moondream2](https://huggingface.co/vikhyatk/moondream2)
+  - [MiniCPM-V-2_6](https://huggingface.co/openbmb/MiniCPM-V-2_6)
 
 ## Exercises
 
-The exercise folders contain a collection of exercises oriented toward learning how to use Large Language Models (LLMs) and their associated techniques. These exercises reinforce the concepts covered in the lessons focused on LLMs, finetuning, prompt engineering and LLM in robotics.
+The exercise folders contain a collection of exercises oriented toward learning how to use Large Language Models (LLMs) and their associated techniques. These exercises reinforce the concepts covered in the lessons focused on LLMs, Fine-Tuning, Prompt Engineering, Model Merging, Tool Calling, and LLM in robotics.
 
-### Exercise 1
+### Exercises 1
 
-This basic exercise shows how to display a quantized LLM, specifically a llama.cpp GGUF LLM. First, the exercise focused on searching LLMs in Hugging Face and its leaderboards and arenas. Then, you have to choose a GGUF LLM and deploy it.
+These basic exercises show how to deploy a quantized LLM, specifically a [llama.cpp](https://github.com/ggerganov/llama.cpp) GGUF LLM, using [llama-cpp-python](https://github.com/abetlen/llama-cpp-python). First, the exercise focused on searching LLMs in Hugging Face and its leaderboards and arenas. Then, you have to choose a GGUF LLM and deploy it. Finally, compare the use of a chat version of an LLM with the vanilla version.
 
-### Exercise 2
+### Exercises 2
 
-This exercise introduces the use of LangChain to display llama.cpp GGUF LLMs. It also provides an example of how to use quantized LLMs to perform Retrieval Augmented Generation (RAG).
+These exercises introduce Prompt Engineeing by using [LangChain](https://www.langchain.com/). Therefore, [LangChain](https://www.langchain.com/) is used to deploy [llama.cpp](https://github.com/ggerganov/llama.cpp) GGUF LLMs. It also provides examples of how to use quantized LLMs to perform Retrieval Augmented Generation (RAG), with Embedding models and Reranker models. Finally, a Structured Output example is included using GBNF grammars from [llama.cpp](https://github.com/ggerganov/llama.cpp).
 
-### Exercise 3
+### Exercises 3
 
-This exercise provides an example of QLoRA finetuning a Phi-2 LLM using the Command Frame Representation (CFR) from the ERL Consumer Challenge. After finetning the LLM, the adapter is merged with the base Phi-2 and the resulting model is quantized using GGUF from llama.cpp.
+These exercises provide examples Fine-Tuning, PEFT (Parameter-Efficient Fine-Tuning) and QLoRA, using [Unsloth](https://unsloth.ai/). Especifically there are two PEFT types employed: SFTT (Supervised Fine-tuning Trainer), used to train an LLM to generate Behaviour Trees (Dataset: [ArtemLykov/LLM_BRAIn_dataset](https://huggingface.co/datasets/ArtemLykov/LLM_BRAIn_dataset)), and DPO (Direct Preference Optimization), used to focuse an LLM on neural networks data (Dataset: [NeuralNovel/Neural-DPO](https://huggingface.co/datasets/NeuralNovel/Neural-DPO)). After Fine-Tuning the LLMs, the LoRA adapters can be merged with the base LLMs and quantize the resulting LLM or quantize the LoRA adapters.
 
-### Exercise 4
+### Exercises 4
 
-This exercise provides an example of using prompt engineering to obtain similar results as in the case of exercise 3 which uses finetuning. In this case, Retrieval Augmented Generation (RAG) along with the GBNF grammars from llama.cpp are used. RAG is used to create a context for the LLM for the Few-Shot Prompting. Finally, the GBNF grammar will make the LLM always respond in the same format, which in this example is the Command Frame Representation (CFR) from the ERL Consumer Challenge.
+Thess exercises provide example of Model Merging to create new LLMs instead of using Fine-Tuning. There are you types of merging in these exercises: SLERP (Spherical Linear Interpolation), used to merge a Qwen model and a DeekSeek model, and Passthrough, used to merge several Qwen models. The resulting LLMs are quantized to GGUF.
 
-### Exercise 5
+### Exercises 5
 
-Coming soon
+This exercises presents a basic use of Tool Calling, using in AI Agents. Since [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) does only support calling a function, this basic example shows how an LLM can be used to create a tool call.
 
-### Exercise 6
+### Exercises 6
 
-This exercise presents a little example of using llama.cpp GGUF VLMs. A VLM is downloaded from Hugging Face and an image is downloaded from a URL to ask questions about it.
+These exercises present a basic example of using a VLM through [llama-cpp-python](https://github.com/abetlen/llama-cpp-python). The VLM is downloaded from Hugging Face and an image is downloaded from a URL to ask questions about it.
 
-### Exercise 7
+### Exercises 7
 
-This final exercise presents how to download llama.cpp GGUF LLMs and VLMs from Hugging Face and deploy and prompt them inside the ROS 2 ecosystem using llama_ros, which is llama.cpp for ROS 2.
+Comming Soon
+
+### Exercises 8
+
+These exercises presents how to download [llama.cpp](https://github.com/ggerganov/llama.cpp) GGUF LLMs and VLMs from Hugging Face and deploy and prompt them inside the ROS 2 ecosystem using [llama_ros](https://github.com/mgonzs13/llama_ros), which is [llama.cpp](https://github.com/ggerganov/llama.cpp) for ROS 2.
+
+### Exercises 9
+
+Comming Soon
+
+### Exercises 10
+
+Comming Soon
 
 ## Acknowledgments
 

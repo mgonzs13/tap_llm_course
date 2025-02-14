@@ -25,7 +25,7 @@ This course presents the exercises from the TAP (Tendencias en Aprendizaje Pronf
 
 ## Materials
 
-- Nvidia Driver 12.4
+- [Nvidia Driver 12.4](https://developer.nvidia.com/cuda-12-4-0-download-archive)
 
 - Libraries:
 
@@ -47,6 +47,9 @@ This course presents the exercises from the TAP (Tendencias en Aprendizaje Pronf
   - [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)
   - [moondream2](https://huggingface.co/vikhyatk/moondream2)
   - [MiniCPM-V-2_6](https://huggingface.co/openbmb/MiniCPM-V-2_6)
+  - [SileroVAD-ONNX](https://huggingface.co/mgonzs13/silero-vad-onnx)
+  - [Whisper.cpp Models](https://huggingface.co/ggerganov/whisper.cpp)
+  - [Piper Models](https://huggingface.co/rhasspy/piper-voices)
 
 ## Exercises
 

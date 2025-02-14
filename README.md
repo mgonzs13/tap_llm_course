@@ -21,7 +21,7 @@
 
 ## Introduction
 
-This course presents the exercises from the TAP (Tendencias en Aprendizaje Pronfundo) subject from the Master in Robotics and Artificial Intelligence from the Universidad de León. The goal of this course is to understand and get acquainted with LLMs and different techniques such as quantization, Prompt Engineering, training through Fine-Tuning, Model Merging, and Tool Calling for AI Agents. Additionally, other concepts like VLMs, UI for AI and AI in ROS 2 are also included. This way, these exercises are focused on downloading, deploying and prompting LLMs and VLMs in the robotics context.
+This course presents the exercises from the TAP (Tendencias en Aprendizaje Pronfundo) subject from the Master in Robotics and Artificial Intelligence course at the Universidad de León. The goal of this course is to understand and get acquainted with LLMs and different techniques such as quantization, Prompt Engineering, training through Fine-Tuning, Model Merging, and Tool Calling for AI Agents. Additionally, other concepts like VLMs, UI for AI, and AI in ROS 2 are also included. This way, these exercises are focused on downloading, deploying, and prompting LLMs and VLMs in the robotics context.
 
 ## Materials
 
@@ -52,19 +52,19 @@ These basic exercises show how to deploy a quantized LLM, specifically a [llama.
 
 ### Exercises 2
 
-These exercises introduce Prompt Engineeing by using [LangChain](https://www.langchain.com/). Therefore, [LangChain](https://www.langchain.com/) is used to deploy [llama.cpp](https://github.com/ggerganov/llama.cpp) GGUF LLMs. It also provides examples of how to use quantized LLMs to perform Retrieval Augmented Generation (RAG), with Embedding models and Reranker models. Finally, a Structured Output example is included using GBNF grammars from [llama.cpp](https://github.com/ggerganov/llama.cpp).
+These exercises introduce Prompt Engineering by using [LangChain](https://www.langchain.com/). Therefore, [LangChain](https://www.langchain.com/) is used to deploy [llama.cpp](https://github.com/ggerganov/llama.cpp) GGUF LLMs. It also provides examples of how to use quantized LLMs to perform Retrieval Augmented Generation (RAG), with Embedding models and Reranker models. Finally, a Structured Output example is included using GBNF grammars from [llama.cpp](https://github.com/ggerganov/llama.cpp).
 
 ### Exercises 3
 
-These exercises provide examples Fine-Tuning, PEFT (Parameter-Efficient Fine-Tuning) and QLoRA, using [Unsloth](https://unsloth.ai/). Especifically there are two PEFT types employed: SFTT (Supervised Fine-tuning Trainer), used to train an LLM to generate Behaviour Trees (Dataset: [ArtemLykov/LLM_BRAIn_dataset](https://huggingface.co/datasets/ArtemLykov/LLM_BRAIn_dataset)), and DPO (Direct Preference Optimization), used to focuse an LLM on neural networks data (Dataset: [NeuralNovel/Neural-DPO](https://huggingface.co/datasets/NeuralNovel/Neural-DPO)). After Fine-Tuning the LLMs, the LoRA adapters can be merged with the base LLMs and quantize the resulting LLM or quantize the LoRA adapters.
+These exercises provide examples of Fine-Tuning, PEFT (Parameter-Efficient Fine-Tuning), and QLoRA, using [Unsloth](https://unsloth.ai/). Specifically, there are two PEFT types employed: SFTT (Supervised Fine-tuning Trainer), used to train an LLM to generate Behaviour Trees (Dataset: [ArtemLykov/LLM_BRAIn_dataset](https://huggingface.co/datasets/ArtemLykov/LLM_BRAIn_dataset)), and DPO (Direct Preference Optimization), used to focus an LLM on neural networks data (Dataset: [NeuralNovel/Neural-DPO](https://huggingface.co/datasets/NeuralNovel/Neural-DPO)). After Fine-Tuning the LLMs, the LoRA adapters can be merged with the base LLMs and quantize the resulting LLM or quantize the LoRA adapters.
 
 ### Exercises 4
 
-Thess exercises provide example of Model Merging to create new LLMs instead of using Fine-Tuning. There are you types of merging in these exercises: SLERP (Spherical Linear Interpolation), used to merge a Qwen model and a DeekSeek model, and Passthrough, used to merge several Qwen models. The resulting LLMs are quantized to GGUF.
+These exercises provide examples of Model Merging to create new LLMs instead of using Fine-Tuning. There are two types of merging in these exercises: SLERP (Spherical Linear Interpolation), used to merge a Qwen model and a DeekSeek model, and Passthrough, used to merge several Qwen models. The resulting LLMs are quantized to GGUF.
 
 ### Exercises 5
 
-This exercises presents a basic use of Tool Calling, using in AI Agents. Since [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) does only support calling a function, this basic example shows how an LLM can be used to create a tool call.
+This exercise presents a basic use of Tool Calling, using AI Agents. Since [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) only supports calling a function, this basic example shows how an LLM can be used to create a tool call.
 
 ### Exercises 6
 
@@ -72,19 +72,19 @@ These exercises present a basic example of using a VLM through [llama-cpp-python
 
 ### Exercises 7
 
-Comming Soon
+Coming Soon
 
 ### Exercises 8
 
-These exercises presents how to download [llama.cpp](https://github.com/ggerganov/llama.cpp) GGUF LLMs and VLMs from Hugging Face and deploy and prompt them inside the ROS 2 ecosystem using [llama_ros](https://github.com/mgonzs13/llama_ros), which is [llama.cpp](https://github.com/ggerganov/llama.cpp) for ROS 2.
+These exercises present how to download [llama.cpp](https://github.com/ggerganov/llama.cpp) GGUF LLMs and VLMs from Hugging Face and deploy and prompt them inside the ROS 2 ecosystem using [llama_ros](https://github.com/mgonzs13/llama_ros), which is [llama.cpp](https://github.com/ggerganov/llama.cpp) for ROS 2.
 
 ### Exercises 9
 
-Comming Soon
+Coming Soon
 
 ### Exercises 10
 
-Comming Soon
+Coming Soon
 
 ## Acknowledgments
 

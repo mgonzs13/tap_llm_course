@@ -35,6 +35,9 @@ This course presents the exercises from the TAP (Tendencias en Aprendizaje Pronf
   - [SileroVAD](https://github.com/snakers4/silero-vad)
   - [whisper.cpp](https://github.com/ggerganov/whisper.cpp)
   - [whisper_ros](https://github.com/mgonzs13/whisper_ros)
+  - [piper](https://github.com/rhasspy/piper)
+  - [piper_ros](https://github.com/mgonzs13/piper_ros)
+  - [chatbot_ros](https://github.com/mgonzs13/chatbot_ros)
   - [LangChain](https://www.langchain.com/)
   - [Unsloth](https://unsloth.ai/)
   - [Gradio](https://www.gradio.app/)
@@ -87,7 +90,7 @@ These exercises present how to download [whisper.cpp](https://github.com/ggergan
 
 ### Exercises 10
 
-Coming Soon
+These exercises present how to deploy a full chatbot in ROS 2 ([chatbot_ros](https://github.com/mgonzs13/chatbot_ros)). The chatbot will use [whisper_ros](https://github.com/mgonzs13/whisper_ros) to perform the Automatic Speech Recognition (ASR), [llama_ros](https://github.com/mgonzs13/llama_ros) to produce responses, and [piper_ros](https://github.com/mgonzs13/piper_ros) to speak the responses. The new component in these exercises is [piper_ros](https://github.com/mgonzs13/piper_ros) that leverage [piper](https://github.com/rhasspy/piper) to carry out the Text-to-Speech (TTS).
 
 ## Acknowledgments
 

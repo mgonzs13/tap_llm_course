@@ -89,11 +89,11 @@ These exercises present how to download [llama.cpp](https://github.com/ggerganov
 
 ### Exercises 9
 
-These exercises present how to download [whisper.cpp](https://github.com/ggerganov/whisper.cpp) and [SileroVAD](https://github.com/snakers4/silero-vad) models, from Hugging Face, to perform Automatic Speech Recognition (ASR) in ROS 2 ecosystem using [whisper_ros](https://github.com/mgonzs13/whisper_ros), which is [whisper.cpp](https://github.com/ggerganov/whisper.cpp) for ROS 2.
+These exercises present Speech example for ROS 2. First of all, it shows how to download [whisper.cpp](https://github.com/ggerganov/whisper.cpp) and [SileroVAD](https://github.com/snakers4/silero-vad) models, from Hugging Face, to perform Automatic Speech Recognition (ASR) in ROS 2 ecosystem using [whisper_ros](https://github.com/mgonzs13/whisper_ros), which is [whisper.cpp](https://github.com/ggerganov/whisper.cpp) for ROS 2. Additionally, these exercises present a TTS (Text-to-Speech) example using [piper](https://github.com/rhasspy/piper) through [piper_ros](https://github.com/mgonzs13/piper_ros).
 
 ### Exercises 10
 
-These exercises present how to deploy a full chatbot in ROS 2 ([chatbot_ros](https://github.com/mgonzs13/chatbot_ros)). The chatbot will use [whisper_ros](https://github.com/mgonzs13/whisper_ros) to perform the Automatic Speech Recognition (ASR), [llama_ros](https://github.com/mgonzs13/llama_ros) to produce responses, and [piper_ros](https://github.com/mgonzs13/piper_ros) to speak the responses. The new component in these exercises is [piper_ros](https://github.com/mgonzs13/piper_ros) that leverage [piper](https://github.com/rhasspy/piper) to carry out the Text-to-Speech (TTS).
+These exercises present how to deploy a full chatbot in ROS 2 ([chatbot_ros](https://github.com/mgonzs13/chatbot_ros)). The chatbot will use [whisper_ros](https://github.com/mgonzs13/whisper_ros) to perform the Automatic Speech Recognition (ASR), [llama_ros](https://github.com/mgonzs13/llama_ros) to produce responses, and [piper_ros](https://github.com/mgonzs13/piper_ros) to speak the responses.
 
 ## Acknowledgments
 

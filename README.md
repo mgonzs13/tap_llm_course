@@ -21,7 +21,9 @@
 
 ## Introduction
 
-This course presents the exercises from the TAP (Tendencias en Aprendizaje Pronfundo) subject from the Master in Robotics and Artificial Intelligence course at the Universidad de León. The goal of this course is to understand and get acquainted with LLMs and different techniques such as quantization, Prompt Engineering, training through Fine-Tuning, Model Merging, and Tool Calling for AI Agents. Additionally, other concepts like VLMs, UI for AI, and AI in ROS 2 are also included. This way, these exercises are focused on downloading, deploying, and prompting LLMs and VLMs in the robotics context.
+This course provides practical exercises for the TAP (Tendencias en Aprendizaje Profundo) module, part of the Master’s in Robotics and Artificial Intelligence at the Universidad de León. The primary objective is to deepen students' understanding of Large Language Models (LLMs) and explore advanced techniques, including quantization, prompt engineering, fine-tuning, model merging, and tool calling for AI agents.
+
+The course also covers Vision-Language Models (VLMs), user interface design for AI applications, and the integration of AI within the ROS 2 framework. Additionally, it includes the use of speech models such as Whisper, SileroVAD, and Piper, focusing on their application in robotics. The exercises emphasize hands-on experience with downloading, deploying, and prompting LLMs, VLMs, and speech models, specifically tailored to robotics use cases.
 
 ## Materials
 

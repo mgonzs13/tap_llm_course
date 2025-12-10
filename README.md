@@ -9,7 +9,7 @@
    - [Exercises 2: Prompt Engineering](#exercises-2)
    - [Exercises 3: Fine-Tuning](#exercises-3)
    - [Exercises 4: Model Merging](#exercises-4)
-   - [Exercises 5: Tool Calling](#exercises-5)
+   - [Exercises 5: AI Agents](#exercises-5)
    - [Exercises 6: Deployment VLMs](#exercises-6)
    - [Exercises 7: Gradio](#exercises-7)
    - [Exercises 8: LLMs in ROS 2](#exercises-8)
@@ -75,7 +75,7 @@ These exercises provide examples of Model Merging to create new LLMs instead of 
 
 ### Exercises 5
 
-This exercise presents a basic use of Tool Calling, using AI Agents. Since [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) only supports calling a function, this basic example shows how an LLM can be used to create a tool call.
+These exercises presents a basic use of Tool Calling, using AI Agents. Since [llama-cpp-python](https://github.com/abetlen/llama-cpp-python) only supports calling a function, this basic example shows how an LLM can be used to create a tool call. Then, the second exercise present the use of MCP servers with [Ollama](https://ollama.com/).
 
 ### Exercises 6
 

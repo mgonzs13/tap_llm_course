@@ -1,6 +1,6 @@
 gradio==6.0.2
 llama-cpp-python==0.3.16
-huggingface-hub==0.36.0
+huggingface-hub>=1.3.0
 langchain==1.1.3 
 langchain-core==1.1.2
 langchain-community==0.4.1
